@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Christian">
+    <meta name="description" content="This is a Week 3 Assignment">
+
+    <title>Week 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #31b1db;
+            margin: 0;
+            padding: 0;
+        }
+        #main-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgb(238, 138, 138);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        #nav-nar {
+            background-color: #444;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        #nav-nar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #nav-nar a:hover {
+            background-color: #555;
+        }
+        #content {
+            padding: 20px;
+        }
+        #content h2 {
+            color: #333;
+        }
+        #content ol {
+            margin-left: 20px;
+        }
+        #header h1 {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        #footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        #footer p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!--- Main Container --->
+    <div id="main-container">
+
+        <div id="header">
+            <h1>This is my bio page</h1>
+        </div>
+
+        <div id="nav-nar">
+            <a href="index.html">Home</a>
+            <a href="bio.html">Bio</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="schooling.html">Schooling</a>
+        </div>
+
+        <div id="content">
+            <h2 id="gamepageheader">My name is Christian and here are some games I like:</h2>
+            <ol>
+                <li>Terraria</li>
+                <li>Minecraft</li>
+                <li>Phantom Hourglass Legend of Zelda</li>
+                <li>Brawlhalla</li>
+                <li>Super Smash Bros</li>
+                <li>Legend of Zelda</li>
+            </ol>
+            <p>Terraria and Minecraft, two of the most entertaining and imaginative games available, let players to explore, construct, and survive in their own distinct worlds. 
+                The Legend of Zelda: Phantom Hourglass, a classic game from the Legend of Zelda series that blends puzzles, exploration, and storyline, may appeal to fans of action and adventure. 
+                Brawlhalla and Super Smash Bros. offer thrilling clashes with a range of characters and playstyles for players who enjoy fast paced combat. 
+                All things considered, these games demonstrate how various genres from competitive fighting to sandbox creativity can all be immensely captivating and enjoyable.</p>
+        </div>
+
+        <div id="footer">
+            <p>2026 Christian's Bio Page. All rights reserved.</p>
+            <p></p>
+        </div>
+
+    </div>
+</body>
+</html>
